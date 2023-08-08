@@ -9,7 +9,7 @@ import os
 import sys
 
 
-white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(3500)
 
 os.system("clear")
